@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+  #header{
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  #nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+  }
+  #main {
+    margin-top: 15%;
+  }
+  .grid {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  #How-it-works {
+    max-width: 70%;
+    height: 4;
+    margin: 0 auto;
+  }
+  #Pricing {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  #footer span {
+    margin-left: 60%;
+  }
+}

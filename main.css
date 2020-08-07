@@ -1,0 +1,122 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  background-color: #eee;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  box-sizing: border-box;
+  min-height: 75px;
+  position: fixed;
+  top: 0;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+}
+.logo img {
+  max-width: 100%;
+  position: relative;
+  margin-top: 15px;
+  margin: 0;
+  padding: 0;
+}
+#nav-bar {
+  font-size: 1.4em;
+}
+#nav-bar ul {
+  list-style: none;
+  text-align: center;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+#main {
+  margin-top: 40%;
+  text-align: center;
+}
+#hero {
+  font-size: 1.6em;
+  margin: 0px 10px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#email {
+  text-align: center;
+  font-size: 1.1em;
+  width: 300px;
+  margin: 10px 0px 20px 0px;
+}
+.btn {
+  background-color: #f1c40f;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 2px 2px 3px 0px black;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.grid .desciption {
+  font-size: 1.5em;
+}
+.desciption p {
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+#video {
+  width: 100%;
+}
+.product {
+  border: 1px solid black;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+.product ul {
+  list-style: none;
+  padding: 0;
+}
+.level {
+  background-color: #ddd;
+  font-size: 1.8em;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.product h3 {
+  font-size: 2em;
+}
+.product li {
+  font-size: 1.6em;
+  text-align: center;
+  line-height: 2em;
+}
+#footer {
+  background-color: #ddd;
+}
+#footer ul {
+  margin-left: 90px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.6em;
+  list-style: none;
+}
+#footer span {
+  font-size: 1.4em;
+  margin-left: 30%;
+}
